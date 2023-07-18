@@ -228,13 +228,14 @@ nav ol li {
     line-height: normal;
 }
 
- .text-online span {
+.text-online span {
     color: #534C64;
     font-family: Work Sans;
     font-size: 1.25rem;
     font-weight: 500;
     display: flex;
-    
+    text-align: center;
+
     /* 150% */
 }
 
@@ -244,7 +245,7 @@ nav ol li {
     color: #0B0223;
     text-align: center;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 
 }
@@ -261,7 +262,51 @@ nav ol li {
     /* 166.667% */
 }
 
+/* end the online section */
+/* No downlod sections start */
+.no-downlod-cantainer {
+    display: flex;
+    column-gap: 250px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
 
+.hero-pic {
+    margin-top: 65px;
+}
+
+.hero-duthor {
+    position: relative;
+    bottom: 274px;
+    left: -152px;
+}
+
+.no-dowonlod-tittel {
+    width: 362px;
+}
+
+.no-dowonlod-tittel h1 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+.no-dowonlod-tittel p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+/* end the heor-pic secstion */
 
 
 /* responciv layout for mobail*/
@@ -272,7 +317,10 @@ nav ol li {
 
     }
 
+    .no-downlod-cantainer,
     .gamer-section,
+    .online-img,
+    span,
     nav {
         flex-direction: column;
     }
@@ -284,11 +332,14 @@ nav ol li {
 
     }
 
+    .no-downlod-cantainer,
     .gamer,
     header {
         padding: 0px;
     }
 
+    .no-dowonlod-tittel p,
+    .no-dowonlod-tittel h1,
     .gamer-titel,
     .sort-titel {
         padding: 10px;
@@ -299,8 +350,21 @@ nav ol li {
         width: 100%;
     }
 
+    .hero-duthor {
+        width: 200px;
+        position: relative;
+        bottom: 138px;
+        left: -81px;
+    }
+
     .img-gamer img {
         width: 100%;
+    }
+
+    .hero-pic img {
+        width: 80%;
+        margin-left: 96px;
+
     }
 
 }
