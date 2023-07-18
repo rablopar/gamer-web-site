@@ -1,0 +1,176 @@
+header {
+    padding: 0 200PX;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    align-items: center;
+    margin-left: 5px;
+}
+
+nav ol {
+    display: flex;
+    align-items: center;
+}
+
+nav ol li {
+    list-style: none;
+    margin-left: 20px;
+    color: #3C354F;
+    cursor: pointer;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.20rempx;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* icon style */
+
+
+.logo {
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.g-dising {
+    color: #FF42A5;
+    font-size: rem;
+}
+
+.nav-titel {
+    font-size: 2.6rem;
+
+}
+
+.li-dising {
+    background-color: azure;
+    padding: 6PX 10PX;
+    border-radius: 4PX;
+    display: flex;
+}
+
+/* end nav sections */
+.baner-conainer h3 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.baner-conainer h1 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 4.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.baner-conainer h4 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.btn-container{
+    display: inline-flex;
+    gap: 15px;
+    transition: .4s;
+}
+
+.btn1 {
+    margin-top: 40px;
+    display: inline-flex;
+    padding: 13px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 600; 
+    font-size: 1.10rem;
+    background-color: #F948B2 ;
+    border-radius: 21px;
+    color: #fff;
+
+}
+.btn1:hover{
+    background-color: #4EC5F7 ;
+}
+.btn2:hover{
+    background-color: #4EC5F7 ;
+}
+.btn2{
+    margin-top: 40px;
+    display: inline-flex;
+    padding: 13px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 600; 
+    font-size: 1.10rem;
+    background-color: #F948B2 ;
+    border-radius: 21px;
+    color: #fff;
+}
+.baner{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+/* .baner-img img{
+    width: 100%;
+} */
+
+
+
+
+
+/* responciv layout for mobail*/
+@media screen and (max-width:576px) {
+    .baner, nav{
+        flex-direction: column;
+        
+    }
+    nav ol {
+        display: grid;
+        row-gap: 30px;
+        padding: 2px 2px;
+        
+    }
+    header{
+        padding: 0px;
+    }
+    .baner-img img{
+        width: 90%;
+    }
+    
+}
