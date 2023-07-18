@@ -170,7 +170,7 @@ nav ol li {
     margin-top: 50px;
 }
 
-.gamer-titel h1 {
+.clorerfull {
     text-align: right;
     font-family: Work Sans;
     font-size: 48px;
@@ -205,6 +205,61 @@ nav ol li {
     /* 187.5% */
 }
 
+/* start online section */
+.online-img {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+.online-img img {
+    width: 100%;
+}
+
+.online-game-tittel h2 {
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+ .text-online span {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    
+    /* 150% */
+}
+
+
+
+.online-game-tittel h1 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.online-game-tittel p {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.20rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    /* 166.667% */
+}
 
 
 
@@ -212,14 +267,16 @@ nav ol li {
 /* responciv layout for mobail*/
 @media screen and (max-width:576px) {
 
-   .baner
-   {
-    flex-direction: column-reverse;
+    .baner {
+        flex-direction: column-reverse;
 
     }
-    .gamer-section ,  nav{
-       flex-direction: column;
+
+    .gamer-section,
+    nav {
+        flex-direction: column;
     }
+
     nav ol {
         display: grid;
         row-gap: 30px;
@@ -227,10 +284,13 @@ nav ol li {
 
     }
 
-    .gamer ,header {
+    .gamer,
+    header {
         padding: 0px;
     }
-    .gamer-titel,.sort-titel{
+
+    .gamer-titel,
+    .sort-titel {
         padding: 10px;
         text-align: center;
     }
@@ -238,7 +298,8 @@ nav ol li {
     .baner-img img {
         width: 100%;
     }
-    .img-gamer img{
+
+    .img-gamer img {
         width: 100%;
     }
 
