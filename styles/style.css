@@ -1,3 +1,8 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
 header {
     padding: 0 160PX;
 }
@@ -173,7 +178,7 @@ nav ol li {
 .clorerfull {
     text-align: right;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -216,6 +221,7 @@ nav ol li {
 
 .online-img img {
     width: 100%;
+    height: 500px;
 }
 
 .online-game-tittel h2 {
@@ -306,7 +312,113 @@ nav ol li {
     line-height: 30px;
     /* 166.667% */
 }
+
 /* end the heor-pic secstion */
+.icon-catainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.icon-catainer2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    
+}
+.para {
+    margin-left: -115px;
+  }
+  .para2 {
+    margin-left: -144px;
+  }
+  .icon-cantainer-main{
+    
+  }
+
+
+
+
+
+/* footer section start */
+.footer-section {
+    background: #0B0223;
+    padding: 329px;
+}
+
+.footer-section .gamer-footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.amar {
+    color: #fff;
+}
+
+.footer-dising ol {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.footer-dising ol li {
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.footer-icon li {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.sucurety ol {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sucurety ol li {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.div-copy-right {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.div-copy-right small {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
 
 
 /* responciv layout for mobail*/
@@ -341,7 +453,7 @@ nav ol li {
     .no-dowonlod-tittel p,
     .no-dowonlod-tittel h1,
     .gamer-titel,
-    .sort-titel {
+    .sort-titel ,.clorerfull , .gamer-titel p{
         padding: 10px;
         text-align: center;
     }
@@ -365,6 +477,23 @@ nav ol li {
         width: 80%;
         margin-left: 96px;
 
+    }
+
+    .footer-section {
+        padding: 30px;
+    }
+
+    .footer-dising ol,
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 65px;
+    }
+
+    .sucurety ol {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 35px;
     }
 
 }
