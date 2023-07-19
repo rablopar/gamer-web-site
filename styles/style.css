@@ -103,17 +103,19 @@ nav ol li {
 .baner-conainer h4 {
     color: #534C64;
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .btn-container {
-    display: inline-flex;
+    display: flex;
     gap: 15px;
     transition: .4s;
+    justify-content: center;
 }
 
 .btn1 {
@@ -267,6 +269,9 @@ nav ol li {
     margin-bottom: 30px;
     /* 166.667% */
 }
+.text-online img    {
+    background:#000;
+}
 
 /* end the online section */
 /* No downlod sections start */
@@ -324,6 +329,7 @@ nav ol li {
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
+    margin-bottom: 100px;
     
 }
 .para {
@@ -331,11 +337,14 @@ nav ol li {
   }
   .para2 {
     margin-left: -144px;
+   
   }
   .icon-cantainer-main{
     
   }
-
+.icon-catainer span:hover{
+    border: 1px solid   #FF42A5;
+}
 
 
 
@@ -495,5 +504,8 @@ nav ol li {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 35px;
     }
-
+    .icon-catainer ,  .icon-catainer{
+        display: grid;
+        grid-template-columns: auto auto;
+      }
 }
