@@ -114,7 +114,6 @@ nav ol li {
 .btn-container {
     display: flex;
     gap: 15px;
-    transition: .4s;
     justify-content: center;
 }
 
@@ -129,6 +128,7 @@ nav ol li {
     background-color: #F948B2;
     border-radius: 21px;
     color: #fff;
+    transition: .6s;
 
 }
 
@@ -463,7 +463,7 @@ nav ol li {
     .no-dowonlod-tittel h1,
     .gamer-titel,
     .sort-titel ,.clorerfull , .gamer-titel p{
-        padding: 10px;
+        padding: 5px;
         text-align: center;
     }
 
