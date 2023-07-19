@@ -504,8 +504,12 @@ nav ol li {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 35px;
     }
-    .icon-catainer ,  .icon-catainer{
+    .icon-catainer ,  .icon-catainer2{
         display: grid;
         grid-template-columns: auto auto;
+        row-gap: 20px;
       }
+      /* .icon-catainer2{
+        margin-top: 20px;
+      } */
 }
